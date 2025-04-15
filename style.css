@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+  
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+/* Hero Section */
+.hero {
+    background: url('https://plus.unsplash.com/premium_photo-1674651240687-92b4ad15d0ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEhvdGVsJTIwYm9va2luZyUyMHdlYnNpdGUlMjBoZXJvJTIwc2VjdGlvbnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px #000;
+}
+  
+/* Booking Section */
+#booking {
+    background-color: hwb(0 91% 6%);
+    padding: 60px 20px;
+}
+  
+#booking h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+  
+/* Rooms Section */
+#rooms h2 {
+    margin-bottom: 40px;
+}
+  
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+}
+  
+/* About Section */
+#about {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+  
+#about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+  
+/* Contact Section */
+#contact {
+    background-color: #f1f1f1;
+    padding: 60px 20px;
+}
+  
+#contact h2 {
+    margin-bottom: 30px;
+}
+  
+/* Buttons */
+button,
+.btn {
+    transition: all 0.3s ease;
+}
+  
+button:hover,
+.btn:hover {
+    transform: scale(1.03);
+}
+  
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #eee;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+  
+/* Responsive */
+ @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+  
+    #booking .form-label,
+    #contact .form-label {
+      font-size: 0.95rem;
+    }
+  
+    .card-body p {
+      font-size: 0.95rem;
+    }
+}
